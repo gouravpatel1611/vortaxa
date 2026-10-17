@@ -3,7 +3,6 @@ import {
   useNavigate,
 } from "react-router-dom";
 
-import VortaxaHeader from "../../components/vortaxa/dashboard/VortaxaHeader";
 
 import VortaxaSummaryCard from "../../components/vortaxa/dashboard/VortaxaSummaryCard";
 
@@ -128,11 +127,7 @@ function Vortaxa() {
       "
     >
 
-      <VortaxaHeader
-        onAdd={() =>
-          navigate("/vortaxa/add")
-        }
-      />
+
 
 
       <VortaxaSummaryCard
